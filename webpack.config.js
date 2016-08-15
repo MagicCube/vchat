@@ -5,7 +5,7 @@ const webpack = require("webpack");
 module.exports = {
     context: path.resolve("./src"),
     entry: {
-        vendor: [ "react", "react-dom", "react-router", "react-tap-event-plugin", "material-ui" ],
+        vendor: [ "babel-polyfill", "react", "react-dom", "react-router", "react-tap-event-plugin", "material-ui" ],
         app: [ "./index.jsx", "./res/index.less" ]
     },
     output: {

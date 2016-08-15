@@ -1,0 +1,30 @@
+{
+  "name": "vchat",
+  "version": "1.0.0",
+  "description": "Node.js based Wechat-like web service, together with client application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicCube/vchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicCube/vchat/issues"
+  },
+  "homepage": "https://github.com/MagicCube/vchat#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}

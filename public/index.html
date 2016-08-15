@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>VChat</title>
-    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="assets/app/res/bundle.css" charset="utf-8">
+    <script src="socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="assets/vendor/bundle.js" charset="utf-8"></script>
 </head>
 <body>
-<script>
-    const socket = io("/message-center");
-    socket.on("message", msg => {
-        alert(msg.body.content);
-    });
-</script>
+    <div id="app"></div>
+    <script src="assets/app/bundle.js" charset="utf-8"></script>
 </body>
 </html>
